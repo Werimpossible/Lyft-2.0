@@ -13,9 +13,9 @@
 ## <a name="descripcion"></a> Descripción: ##
 - Versión 1.0:
     - Versión móvil únicamente.
-    - Esta versión de Drink Advisor tiene la finalidad de mostrar un listado de bares de la zona (Especificamente Napoles) dando una vista previa miniatura con imágenes de los bares.
-    - Tiene capacidad de filtrado básico donde al buscar ciertos tags como "happy hour", "restaurante", etc, sea capaz de mostrar solo las opciones que cumplan conla condición.
-    - Al pulsar sobre la opción deseada, se mostrará un modal con información adicional del bar.
+    - Capaz de mostrar un splash de 3 segundos con el logo oficial de Lyft.
+    - Muestra todo el proceso de registro de usuario por medio de varios views linkeados a index principal, os cuales se unen por medio de la habilitación y desabilitación de botones al momentos de ingresa datos.
+    - Los botones se habilitan y desabilitan a vista del usuario después de validar y contabilizar el tipo de data y numero ingresados.
     
 ## <a name="objetivo"></a> Objetivo de Laboratoria ##
 - Desarrolla una web-app que replique el sitio de Lyft, en este reto deberás cumplir los pasos necesarios para que tu usuario pueda registrarse.
