@@ -1,1 +1,143 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
+#view-splash,
+#finish {
+  background: linear-gradient(to bottom right,#5A0062, #C90881);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#view-splash > div > img,
+#signup > section > div > img {
+  width: auto;
+  height: auto;
+  max-width: 752.22px;
+  max-height: 532.98px;
+}
+
+#view-splash > div,
+#signup > section > section {
+  width: 80%;
+}
+
+#signup {
+  background-image: url('../assets/images/car-drive.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: none;
+}
+
+#signup > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#signup > section.signup-button {
+  text-align: center;
+  height: 10vh;
+}
+
+#signup > section.row.signup-button > div > button:nth-child(2) > a {
+  text-decoration: none;
+  color: white;
+}
+
+#signup-form > section,
+#verify-form > section,
+#agree > section {
+  margin: 5% 0;
+  border-bottom: 1px solid #C90881;
+}
+
+#signup-form > section > section > a > i,
+#verify-form > section > section.col-1.col-md-1.col-lg-1 > a > i,
+#agree > section > section.col-1.col-md-1.col-lg-1 > a > i { /* icono para regresar de página*/
+  color: #C90881;
+  font-size: 5em;
+  text-decoration: none;
+}
+
+#signup-form > section > section.col-11.col-md-11.col-lg-11,
+#verify-form > section > section.col-11.col-md-11.col-lg-11,
+#agree > section > section.col-11.col-md-11.col-lg-11 {
+  text-align: center;
+}
+
+#signup-form > form > div.form-row > div > div > button { /* estilos para el selector de país */
+  background-color: white;
+  border: 1px solid #C90881;
+  text-align: left;
+  width: 100%;
+}
+
+#phone-number,
+#verify-code,
+#agree > form > div:nth-child(1) > div:nth-child(1) > input,
+#agree > form > div:nth-child(1) > div:nth-child(2) > input,
+#agree > form > div:nth-child(2) > div > input { /* estilos para el input del número*/
+    border: 1px solid #C90881;
+}
+
+#verify-form > form {
+  text-align: center;
+}
+
+#signup-form > form > div.form-row > div > div > button > img { /* estilos para el selector de país */
+  width: 10%;
+}
+
+#signup-form > form > div.form-row > div > div > ul > li > a > img { /* estilos para el selector de país */
+  width: 10%;
+  margin: 3% 5%;
+}
+
+#signup-form > form > p,  /* estilos para alinear texto y botón de formulario */
+#signup-form > form > button,
+#verify-form > form > div:nth-child(2),
+#agree > form > div:nth-child(2) > div > input,
+#agree > form > button {
+  margin: 5% 0;
+}
+
+#verify-form > form > div:nth-child(1) > label {
+  margin-top: 5%;
+}
+
+#signup-form > form > button,
+#verify-form > form > button,
+#agree > form > button { /* estilos para el botón que dirige a la siguiente vista*/
+  background-color: #C90881;
+  border: none;
+  font-size: 1.5em;
+  height: 8vh;
+  width: 100%;
+}
+
+#signup-form > form > button > a,
+#verify-form > form > div:nth-child(2) > button > a,
+#verify-form > form > button > a,
+#agree > form > button > a {
+  text-decoration: none;
+  color: white;
+}
+
+#finish {
+  color: white;
+  font-size: 10em;
+  flex-direction: column;
+}
+
+#finish > div:nth-child(1) {
+  text-align: center;
+}
+
+#finish > div:nth-child(3) {
+  width: 60%;
+}
